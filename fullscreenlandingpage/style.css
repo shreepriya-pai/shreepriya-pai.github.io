@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+/* UNIVERSAL SELECTOR */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ecf0f1;
+    line-height: 1.6;
+}
+
+/* HEADER */
+#showcase {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538__340.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+    width: 70%;
+}
+
+#showcase .button {
+    border: 2px solid #ecf0f1;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ecf0f1;
+    border-radius: 10px;
+}
+
+#showcase .button:hover {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+/* SECTION */
+#section-a {
+    padding: 20px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background-color: #ecf0f1;
+    color: #34495e;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+    color: #34495e;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: #34495e;
+    color: #ecf0f1;
+}
+
+#section-c .box-2 {
+    background: #bdc3c7;
+    color: #34495e;
+}
